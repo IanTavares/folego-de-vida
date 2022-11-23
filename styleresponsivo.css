@@ -1,0 +1,619 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 912px) {
+    .nav-bar {
+        padding: 1rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+  
+    .open {
+        display: block;
+    }
+
+    .sejam-bemvindos {
+        width: 800px;
+      }
+    
+      .sejam-bem-vindos-titulo {
+        text-align: center;
+        padding-right: 55px;
+      }
+    
+      .sejam-bem-vindos-texto {
+        text-align: center;
+        padding-right: 50px;
+      }
+      .slider {
+        padding: 1rem 3rem;
+    }
+    .slides {
+        display: flex;
+    }
+    .slides input {
+        display: flex;
+    }
+    .slide {
+        display: flex;
+    }
+    .slide img {
+        width: 800px;
+        display: flex;
+    }
+    #Movimento {
+      background-image: url(img-igreja/culto.jpg);
+      background-position: center center;
+      background-attachment: fixed;
+      width: 810px;
+      background-size: 2000px;
+      padding: 40px;
+      
+    }
+    
+    .Movimento {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.0em;     
+    }
+    
+    #Movimento h3 {
+      color: #fff;
+      text-align: center;
+      font-weight: 400;
+      font-size: 35px;
+      font-family: 'Kalam';
+     text-shadow: solid 1px black;
+     padding-top: 70px;
+    }
+    
+    #Movimento h1 {
+      color: #00d2df;
+      text-align: center;
+      font-weight: 400;
+      font-size: 60px;
+      font-family: 'Kalam';
+      text-shadow: solid 1px black;
+      padding-top: 20px;
+    }
+    
+    .areaMovimento{
+      border: 1px solid #00d2df;
+      width: 440px;
+      height: 340px;
+      margin: 10px;
+      color: white;
+      text-align: center;    
+      position: relative;
+    }
+    
+    .areaMovimento h2 {
+        padding: 10px;
+        margin-top: 90px; 
+    }
+    
+    .areaMovimento p {
+        padding: 15px;
+    }
+    
+    .imageMovimento {    
+        display: block;
+        width: 100%;
+        height: 340px; 
+    }
+    
+    
+    .textoMovimento {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.842);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    
+    .textoMovimento:hover {
+      opacity: 1;
+    }
+    
+    .textoMovimento-h2 {
+      font-family: 'Jockey';
+    }
+    
+    .btn {
+       border: none;
+       background-color: #006494;
+       padding: 10px 18px;
+       border-radius: 20px;
+       margin-top: 40px;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Kalam';
+        font-size: 17px;
+    }
+    
+    .btn a:hover {
+        transform: scale(1.1);
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid #05d4df;
+        border-radius: 22px;
+        padding: 8px;
+    } 
+    
+    .fotos {
+      margin: 20px;
+      border: 0.5px solid black;
+      border-radius: 20px;
+      background:rgba(0, 0, 0, 0.753);
+      box-shadow: 0px 3px 10px #006494;
+      box-shadow: 0px 3px 10px #006494;
+      width: 850px;
+    }
+    
+    .titulo-fotos {
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-family: 'Jockey';
+      overflow: hidden;
+      font-size: 3rem;
+    }
+    
+    .subtitulo-fotos {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(255, 255, 255, 0.63);
+      padding-bottom: 10px;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+    .gallery-items img {
+      width: 880px;
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .gallery-items:hover{
+      transform: scale(1.3);
+    }
+    
+    .sobre-nos {
+      padding: 220px;
+      margin: 10px;
+      background: rgba(0, 0, 0, 0.582);
+      border-radius: 15px;
+      display: block; 
+      width: 660px;
+      height: 170px;
+    }
+    
+    .texto01 {
+     color: rgba(0, 0, 0, 0.596);
+     text-align: center;
+    }
+    
+    
+    .titulo-sobrenos {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 10px;
+      font-size: 40px;
+      color: rgba(0, 0, 0, 0.596);
+      font-weight: bold;
+    }
+    
+    .subtitulo-sobrenos {
+      text-align: center;
+      font-family: 'Jockey';
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.596);
+    }
+    
+    .texto-sobrenos {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+     
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.541);
+    }
+    
+    .texto03 {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.596);
+      font-weight: bold;
+    }
+    
+    .ender {
+     float: center;
+     text-align: center;
+     font-size: 15px;
+     padding: 100px;
+     font-weight: 400;
+     color: rgba(0, 0, 0, 0.596);
+    }
+    
+    .ender-titulo {
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ender-texto {
+      text-align: center;
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.596);
+      font-size: 15px;
+      font-weight: 500;
+      padding: 10px;
+    }
+    
+    .ender a {
+      text-align: center;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    
+    .nome {
+      padding left: 70px;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .slider {
+        padding: 1.5rem 4rem;
+    }
+    .slides {
+        display: inline-block;
+    }
+    .slides input {
+        display: left;
+    }
+    .slide {
+        display: left;
+    }
+    .slide img {
+        width: 550px;
+    }
+    .manual-btn {
+      border: 2px solid #fff;
+      padding: 5px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 1s;
+    } 
+  }
+  
+  
+  @media screen and (max-width: 420px) {
+    .nav-bar {
+      padding: 1rem;
+  }
+  .nav-item {
+      display: none;
+  }
+  .login-button {
+      display: none;
+  }
+  .mobile-menu-icon {
+      display: block;
+  }
+  .mobile-menu-icon button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+  }
+  .mobile-menu ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 1rem;
+  }
+  .mobile-menu .nav-item {
+      display: block;
+      padding-top: 1.2rem;
+  }
+
+  .open {
+      display: block;
+  }
+    .sejam-bemvindos {
+        width: 250px;
+      }
+    
+      .sejam-bem-vindos-titulo {
+        text-align: center;
+        padding-right: 55px;
+      }
+    
+      .sejam-bem-vindos-texto {
+        text-align: center;
+        padding-right: 50px;
+      }
+      .slider {
+        padding: 0.5rem;
+    }
+    .slides {
+        display: flex;
+    }
+    .slides input {
+        display: inline;
+    }
+    .slide {
+        display: inline;
+    }
+    .slide img {
+        width: 250vw;
+        display: inline;
+    }
+    #Movimento {
+      background-image: url(img-igreja/culto.jpg);
+      background-position: center center;
+      background-attachment: fixed;
+      width: 250vw;
+      background-size: 2000px;
+      
+      
+    }
+    
+    .Movimento {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.0em;     
+    }
+    
+    #Movimento h3 {
+      color: #fff;
+      text-align: center;
+      font-weight: 400;
+      font-size: 35px;
+      font-family: 'Kalam';
+     text-shadow: solid 1px black;
+     padding-top: 70px;
+    }
+    
+    #Movimento h1 {
+      color: #00d2df;
+      text-align: left;
+      font-weight: 400;
+      font-size: 26px;
+      font-family: 'Kalam';
+      text-shadow: solid 1px black;
+      
+    }
+    
+    .areaMovimento{
+      border: 1px solid #00d2df;
+      width: 290px;
+      height: 340px;
+      margin: 10px;
+      color: white;
+      text-align: column;    
+      position: relative;
+    }
+    
+    .areaMovimento h2 {
+        padding: 10px;
+        margin-top: 90px; 
+    }
+    
+    .areaMovimento p {
+        padding: 15px;
+    }
+    
+    .imageMovimento {    
+        display: block;
+        width: 100%;
+        height: 340px; 
+    }
+    
+    
+    .textoMovimento {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.842);
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    
+    .textoMovimento:hover {
+      opacity: 1;
+    }
+    
+    .textoMovimento-h2 {
+      font-family: 'Jockey';
+    }
+    
+    .btn {
+       border: none;
+       background-color: #006494;
+       padding: 10px 18px;
+       border-radius: 20px;
+       margin-top: 40px;
+    }
+    
+    .btn a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Kalam';
+        font-size: 17px;
+    }
+    
+    .btn a:hover {
+        transform: scale(1.1);
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        border: 1px solid #05d4df;
+        border-radius: 22px;
+        padding: 8px;
+    } 
+    
+    .fotos {
+      margin: 20px;
+      border: 0.5px solid black;
+      border-radius: 20px;
+      background:rgba(0, 0, 0, 0.753);
+      box-shadow: 0px 3px 10px #006494;
+      box-shadow: 0px 3px 10px #006494;
+      width: 350px;
+    }
+    
+    .titulo-fotos {
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-family: 'Jockey';
+      overflow: hidden;
+      font-size: 3rem;
+    }
+    
+    .subtitulo-fotos {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgba(255, 255, 255, 0.63);
+      padding-bottom: 10px;
+      font-weight: 400;
+      font-size: 2rem;
+    }
+    .gallery-items img {
+      width: 320px;
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .gallery-items:hover{
+      transform: scale(1.3);
+    }
+    
+    .sobre-nos {
+      padding: 60px;
+      margin-top: 20px;
+      background: rgba(0, 0, 0, 0.582);
+      border-radius: 15px;
+      display: block; 
+      width: 250px;
+      height: 690px;
+    }
+    
+    .texto01 {
+     color: rgba(0, 0, 0, 0.596);
+     text-align: justify;
+    }
+    
+    
+    .titulo-sobrenos {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-bottom: 10px;
+      font-size: 40px;
+      color: rgba(0, 0, 0, 0.596);
+      font-weight: bold;
+    }
+    
+    .subtitulo-sobrenos {
+      text-align: center;
+      font-family: 'Jockey';
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.596);
+    
+    }
+    
+    .texto-sobrenos {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.541);
+      text-align: center;
+      padding-right: 0;
+    }
+    
+    .texto03 {
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.596);
+      font-weight: bold;
+    }
+    
+    .ender {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.541);
+      text-align: center;
+      padding-right: 0;
+     
+    }
+    
+    .ender-titulo {
+      color: rgba(0, 0, 0, 0.596);
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding-left: 15px;
+    }
+    
+    .ender-texto {
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.541);
+      text-align: center;
+      
+    }
+    
+    .ender a {
+      text-align: center;
+      font-size: 15px;
+      text-decoration: none;
+      padding-left: 25px;
+      
+    }
+    
+    .nome {
+      padding left: 70px;
+      text-align: center;
+    }
+
+  }
