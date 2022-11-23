@@ -400,12 +400,12 @@
     
     #Movimento h3 {
       color: #fff;
-      text-align: center;
+      text-align: left;
       font-weight: 400;
-      font-size: 35px;
+      font-size: 30px;
       font-family: 'Kalam';
      text-shadow: solid 1px black;
-     padding-top: 70px;
+    
     }
     
     #Movimento h1 {
