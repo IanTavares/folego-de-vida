@@ -357,27 +357,31 @@
     
       .sejam-bem-vindos-titulo {
         text-align: center;
-        padding-right: 55px;
+        padding-right: 45px;
       }
     
       .sejam-bem-vindos-texto {
         text-align: center;
-        padding-right: 50px;
+        padding-right: 70px;
       }
       .slider {
-        padding: 0.5rem;
+        padding: 15px;
     }
     .slides {
-        display: flex;
+      display: flex;
     }
     .slides input {
-        display: inline;
+        display: flex;
     }
     .slide {
-        display: inline;
+      width: 25%;
+      position: relative;
+      transition: 2s;
+    }
     }
     .slide img {
-        width: 250vw;
+        width: 450px;
+        height: 300px;
         display: inline;
     }
     #Movimento {
@@ -418,9 +422,9 @@
     
     .areaMovimento{
       border: 1px solid #00d2df;
-      width: 290px;
+      width: 280px;
       height: 340px;
-      margin: 10px;
+      margin: 15px;
       color: white;
       text-align: column;    
       position: relative;
@@ -463,7 +467,7 @@
     .btn {
        border: none;
        background-color: #006494;
-       padding: 10px 18px;
+       padding: 10px 35px;
        border-radius: 20px;
        margin-top: 40px;
     }
@@ -474,6 +478,7 @@
         font-weight: 500;
         font-family: 'Kalam';
         font-size: 17px;
+        padding-top: 18px;
     }
     
     .btn a:hover {
@@ -493,7 +498,7 @@
       background:rgba(0, 0, 0, 0.753);
       box-shadow: 0px 3px 10px #006494;
       box-shadow: 0px 3px 10px #006494;
-      width: 350px;
+      width: 320px;
     }
     
     .titulo-fotos {
@@ -514,8 +519,8 @@
       font-size: 2rem;
     }
     .gallery-items img {
-      width: 320px;
-      height: 400px;
+      width: 310px;
+      height: 240px;
       object-fit: cover;
     }
     
@@ -613,5 +618,399 @@
       padding left: 70px;
       text-align: center;
     }
-
-  }
+    .reunioes {
+      background-color: rgba(255, 255, 0, 0.877);
+      border: 1px solid black;
+      border-radius: 15px;
+      padding: 1rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      width: 323px;
+     }
+     
+     .titulo-reunioes {
+       font-size: 1.5rem;
+       font-family: "Jockey";
+       font-weight: bolder;
+     
+     }
+     
+     .texto-reunioes {
+       text-align: center;
+       padding: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     
+     .section-5 {
+       border: 8px solid rgba(0, 0, 0, 0.089);
+       margin: 11rem;
+     }
+     
+     .section-5 h1 {
+       text-align: left;
+       color: #000;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+     
+     .container-form {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+     }
+     .map {
+       width: 100px;
+       flex: 2rem;
+       object-fit: cover;
+     }
+    
+     @media screen and (min-width: 325px) {
+      .nav-bar {
+        padding: 1rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+  
+    .open {
+        display: block;
+    }
+      .sejam-bemvindos {
+          width: 220px;
+        }
+      
+        .sejam-bem-vindos-titulo {
+          text-align: center;
+          padding-right: 55px;
+        }
+      
+        .sejam-bem-vindos-texto {
+          text-align: center;
+          padding-right: 50px;
+        }
+        .slider {
+          padding: 1px;
+      }
+      .slides {
+        display: flex;
+      }
+      .slides input {
+          display: flex;
+      }
+      .slide {
+        width: 50%;
+        position: relative;
+        transition: 2s;
+      }
+      }
+      .slide img {
+          width: 330px;
+          height: 300px;
+          display: inline;
+      }
+      #Movimento {
+        background-image: url(img-igreja/culto.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        width: 250vw;
+        background-size: 2000px;
+      }
+      
+      .Movimento {
+          display: block;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          font-size: 1.0em; 
+          padding-right: 15px;   
+        
+      }
+      
+      #Movimento h3 {
+        color: #fff;
+        text-align: left;
+        font-weight: 400;
+        font-size: 30px;
+        font-family: 'Kalam';
+       text-shadow: solid 1px black;
+      
+      }
+      
+      #Movimento h1 {
+        color: #00d2df;
+        text-align: left;
+        font-weight: 400;
+        font-size: 20px;
+        font-family: 'Kalam';
+        text-shadow: solid 1px black;
+        
+      }
+      
+      .areaMovimento{
+        border: 1px solid #00d2df;
+        width: 220px;
+        height: 340px;
+        margin: 15px;
+        color: white;
+        text-align: column;    
+        position: relative;
+      }
+      
+      .areaMovimento h2 {
+          padding: 10px;
+          margin-top: 90px; 
+      }
+      
+      .areaMovimento p {
+          padding: 15px;
+      }
+      
+      .imageMovimento {    
+          display: block;
+          width: 100%;
+          height: 340px; 
+      }
+      
+      
+      .textoMovimento {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.842);
+        opacity: 0;
+        transition: opacity 0.25s;
+      }
+      
+      .textoMovimento:hover {
+        opacity: 1;
+      }
+      
+      .textoMovimento-h2 {
+        font-family: 'Jockey';
+      }
+      
+      .btn {
+         border: none;
+         background-color: #006494;
+         padding: 10px 35px;
+         border-radius: 20px;
+         
+      }
+      
+      .btn a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 500;
+          font-family: 'Kalam';
+          font-size: 17px;
+      }
+      
+      .btn a:hover {
+          transform: scale(1.1);
+          color: #fff;
+          font-weight: bold;
+          font-size: 20px;
+          border: 1px solid #05d4df;
+          border-radius: 22px;
+          padding: 8px;
+      } 
+      
+      .fotos {
+        margin: 20px;
+        border: 0.5px solid black;
+        border-radius: 20px;
+        background:rgba(0, 0, 0, 0.753);
+        box-shadow: 0px 3px 10px #006494;
+        box-shadow: 0px 3px 10px #006494;
+        width: 270px;
+      }
+      
+      .titulo-fotos {
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Jockey';
+        overflow: hidden;
+        font-size: 2rem;
+      }
+      
+      .subtitulo-fotos {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(255, 255, 255, 0.63);
+        padding-bottom: 10px;
+        font-weight: 400;
+        font-size: 1rem;
+      }
+      .gallery-items img {
+        width: 260px;
+        height: 240px;
+        object-fit: cover;
+      }
+      
+      .gallery-items:hover{
+        transform: scale(1.3);
+      }
+      
+      .sobre-nos {
+        background: rgba(0, 0, 0, 0.582);
+        border-radius: 15px;
+        display: block; 
+        width: 160px;
+        height: 740px;
+      }
+      
+      .texto01 {
+       color: rgba(0, 0, 0, 0.596);
+       text-align: justify;
+      }
+      
+      
+      .titulo-sobrenos {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.596);
+        font-weight: bold;
+      }
+      
+      .subtitulo-sobrenos {
+        text-align: center;
+        font-family: 'Jockey';
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.596);
+        justify-content: ;
+      
+      }
+      
+      .texto-sobrenos {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.541);
+        text-align: center;
+        padding-right: 0;
+        justify-content: ;
+      }
+      
+      .texto03 {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.596);
+        font-weight: bold;
+      }
+      
+      .ender {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.541);
+        text-align: center;
+        padding-left: 80px;
+       
+      }
+      
+      .ender-titulo {
+        color: rgba(0, 0, 0, 0.596);
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-left: 55px;
+      }
+      
+      .ender-texto {
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.541);
+        text-align: center;
+        padding-left: 55px;
+        
+      }
+      
+      .email {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        padding-left: 1rem;
+        
+      }
+      
+      .nome {
+        padding left: 70px;
+        text-align: center;
+      }
+      .reunioes {
+        background-color: rgba(255, 255, 0, 0.877);
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: 223px;
+       }
+       
+       .titulo-reunioes {
+         font-size: 1.5rem;
+         font-family: "Jockey";
+         font-weight: bolder;
+       
+       }
+       
+       .texto-reunioes {
+         text-align: center;
+         padding: 0.5rem;
+         font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       .section-5 {
+         margin: 7rem;
+       }
+       
+       .section-5 h1 {
+         text-align: left;
+         color: #000;
+         font-family: Arial, Helvetica, sans-serif;
+       }
+       
+       .container-form {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+       }
+       .map {
+         width: 20px;
+         flex: 2rem;
+         object-fit: cover;
+       }
+       
