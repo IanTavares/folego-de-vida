@@ -3,325 +3,9 @@
     margin: 0;
 }
 
-
-@media screen and (max-width: 912px) {
-    .nav-bar {
-        padding: 1rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
-    }
-  
-    .open {
-        display: block;
-    }
-
-    .sejam-bemvindos {
-        width: 800px;
-      }
-    
-      .sejam-bem-vindos-titulo {
-        text-align: center;
-        padding-right: 55px;
-      }
-    
-      .sejam-bem-vindos-texto {
-        text-align: center;
-        padding-right: 50px;
-      }
-      .slider {
-        padding: 1rem 3rem;
-    }
-    .slides {
-        display: flex;
-    }
-    .slides input {
-        display: flex;
-    }
-    .slide {
-        display: flex;
-    }
-    .slide img {
-        width: 800px;
-        display: flex;
-    }
-    #Movimento {
-      background-image: url(img-igreja/culto.jpg);
-      background-position: center center;
-      background-attachment: fixed;
-      width: 810px;
-      background-size: 2000px;
-      padding: 40px;
-      
-    }
-    
-    .Movimento {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        font-size: 1.0em;     
-    }
-    
-    #Movimento h3 {
-      color: #fff;
-      text-align: center;
-      font-weight: 400;
-      font-size: 35px;
-      font-family: 'Kalam';
-     text-shadow: solid 1px black;
-     padding-top: 70px;
-    }
-    
-    #Movimento h1 {
-      color: #00d2df;
-      text-align: center;
-      font-weight: 400;
-      font-size: 60px;
-      font-family: 'Kalam';
-      text-shadow: solid 1px black;
-      padding-top: 20px;
-    }
-    
-    .areaMovimento{
-      border: 1px solid #00d2df;
-      width: 440px;
-      height: 340px;
-      margin: 10px;
-      color: white;
-      text-align: center;    
-      position: relative;
-    }
-    
-    .areaMovimento h2 {
-        padding: 10px;
-        margin-top: 90px; 
-    }
-    
-    .areaMovimento p {
-        padding: 15px;
-    }
-    
-    .imageMovimento {    
-        display: block;
-        width: 100%;
-        height: 340px; 
-    }
-    
-    
-    .textoMovimento {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.842);
-      opacity: 0;
-      transition: opacity 0.25s;
-    }
-    
-    .textoMovimento:hover {
-      opacity: 1;
-    }
-    
-    .textoMovimento-h2 {
-      font-family: 'Jockey';
-    }
-    
-    .btn {
-       border: none;
-       background-color: #006494;
-       padding: 10px 18px;
-       border-radius: 20px;
-       margin-top: 40px;
-    }
-    
-    .btn a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Kalam';
-        font-size: 17px;
-    }
-    
-    .btn a:hover {
-        transform: scale(1.1);
-        color: #fff;
-        font-weight: bold;
-        font-size: 20px;
-        border: 1px solid #05d4df;
-        border-radius: 22px;
-        padding: 8px;
-    } 
-    
-    .fotos {
-      margin: 20px;
-      border: 0.5px solid black;
-      border-radius: 20px;
-      background:rgba(0, 0, 0, 0.753);
-      box-shadow: 0px 3px 10px #006494;
-      box-shadow: 0px 3px 10px #006494;
-      width: 850px;
-    }
-    
-    .titulo-fotos {
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      font-family: 'Jockey';
-      overflow: hidden;
-      font-size: 3rem;
-    }
-    
-    .subtitulo-fotos {
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: rgba(255, 255, 255, 0.63);
-      padding-bottom: 10px;
-      font-weight: 400;
-      font-size: 2rem;
-    }
-    .gallery-items img {
-      width: 880px;
-      height: 400px;
-      object-fit: cover;
-    }
-    
-    .gallery-items:hover{
-      transform: scale(1.3);
-    }
-    
-    .sobre-nos {
-      padding: 220px;
-      margin: 10px;
-      background: rgba(0, 0, 0, 0.582);
-      border-radius: 15px;
-      display: block; 
-      width: 660px;
-      height: 170px;
-    }
-    
-    .texto01 {
-     color: rgba(0, 0, 0, 0.596);
-     text-align: center;
-    }
-    
-    
-    .titulo-sobrenos {
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      padding-bottom: 10px;
-      font-size: 40px;
-      color: rgba(0, 0, 0, 0.596);
-      font-weight: bold;
-    }
-    
-    .subtitulo-sobrenos {
-      text-align: center;
-      font-family: 'Jockey';
-      font-weight: 400;
-      color: rgba(0, 0, 0, 0.596);
-    }
-    
-    .texto-sobrenos {
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-     
-      font-size: 14px;
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.541);
-    }
-    
-    .texto03 {
-      font-size: 15px;
-      color: rgba(0, 0, 0, 0.596);
-      font-weight: bold;
-    }
-    
-    .ender {
-     float: center;
-     text-align: center;
-     font-size: 15px;
-     padding: 100px;
-     font-weight: 400;
-     color: rgba(0, 0, 0, 0.596);
-    }
-    
-    .ender-titulo {
-      font-size: 25px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .ender-texto {
-      text-align: center;
-      font-size: 15px;
-      color: rgba(0, 0, 0, 0.596);
-      font-size: 15px;
-      font-weight: 500;
-      padding: 10px;
-    }
-    
-    .ender a {
-      text-align: center;
-      font-size: 15px;
-      text-decoration: none;
-    }
-    
-    .nome {
-      padding left: 70px;
-      text-align: center;
-    }
-  }
-  
-  @media screen and (max-width: 700px) {
-    .slider {
-        padding: 1.5rem 4rem;
-    }
-    .slides {
-        display: inline-block;
-    }
-    .slides input {
-        display: left;
-    }
-    .slide {
-        display: left;
-    }
-    .slide img {
-        width: 550px;
-    }
-    .manual-btn {
-      border: 2px solid #fff;
-      padding: 5px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: 1s;
-    } 
-  }
-  
-  
-  @media screen and (max-width: 420px) {
-    .nav-bar {
-      padding: 1rem;
+@media screen and (max-width: 730px) {
+  .nav-bar {
+      padding: 1.5rem 4rem;
   }
   .nav-item {
       display: none;
@@ -347,326 +31,133 @@
       display: block;
       padding-top: 1.2rem;
   }
-
+  .mobile-menu .login-button {
+      display: block;
+      padding: 1rem 2rem;
+  }
+  .mobile-menu .login-button button {
+      width: 100%;
+  }
   .open {
       display: block;
   }
-    .sejam-bemvindos {
-        width: 250px;
-      }
-    
-      .sejam-bem-vindos-titulo {
-        text-align: center;
-        padding-right: 45px;
-      }
-    
-      .sejam-bem-vindos-texto {
-        text-align: center;
-        padding-right: 70px;
-      }
-      .slider {
-        padding: 15px;
-    }
-    .slides {
-      display: flex;
-    }
-    .slides input {
-        display: flex;
-    }
-    .slide {
-      width: 25%;
-      position: relative;
-      transition: 2s;
-    }
-    }
-    .slide img {
-        width: 450px;
-        height: 300px;
-        display: inline;
-    }
-    #Movimento {
-      background-image: url(img-igreja/culto.jpg);
-      background-position: center center;
-      background-attachment: fixed;
-      width: 250vw;
-      background-size: 2000px;
-    }
-    
-    .Movimento {
-        display: block;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        font-size: 1.0em;     
-    }
-    
-    #Movimento h3 {
-      color: #fff;
-      text-align: left;
-      font-weight: 400;
-      font-size: 30px;
-      font-family: 'Kalam';
-     text-shadow: solid 1px black;
-    
-    }
-    
-    #Movimento h1 {
-      color: #00d2df;
-      text-align: left;
-      font-weight: 400;
-      font-size: 26px;
-      font-family: 'Kalam';
-      text-shadow: solid 1px black;
-      
-    }
-    
-    .areaMovimento{
-      border: 1px solid #00d2df;
-      width: 280px;
-      height: 340px;
-      margin: 15px;
-      color: white;
-      text-align: column;    
-      position: relative;
-    }
-    
-    .areaMovimento h2 {
-        padding: 10px;
-        margin-top: 90px; 
-    }
-    
-    .areaMovimento p {
-        padding: 15px;
-    }
-    
-    .imageMovimento {    
-        display: block;
-        width: 100%;
-        height: 340px; 
-    }
-    
-    
-    .textoMovimento {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.842);
-      opacity: 0;
-      transition: opacity 0.25s;
-    }
-    
-    .textoMovimento:hover {
-      opacity: 1;
-    }
-    
-    .textoMovimento-h2 {
-      font-family: 'Jockey';
-    }
-    
-    .btn {
-       border: none;
-       background-color: #006494;
-       padding: 10px 35px;
-       border-radius: 20px;
-       margin-top: 40px;
-    }
-    
-    .btn a {
-        text-decoration: none;
-        color: #fff;
-        font-weight: 500;
-        font-family: 'Kalam';
-        font-size: 17px;
-        padding-top: 18px;
-    }
-    
-    .btn a:hover {
-        transform: scale(1.1);
-        color: #fff;
-        font-weight: bold;
-        font-size: 20px;
-        border: 1px solid #05d4df;
-        border-radius: 22px;
-        padding: 8px;
-    } 
-    
-    .fotos {
-      margin: 20px;
-      border: 0.5px solid black;
-      border-radius: 20px;
-      background:rgba(0, 0, 0, 0.753);
-      box-shadow: 0px 3px 10px #006494;
-      box-shadow: 0px 3px 10px #006494;
-      width: 320px;
-    }
-    
-    .titulo-fotos {
-      color: #fff;
-      padding: 10px;
-      text-align: center;
-      font-family: 'Jockey';
-      overflow: hidden;
-      font-size: 3rem;
-    }
-    
-    .subtitulo-fotos {
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      color: rgba(255, 255, 255, 0.63);
-      padding-bottom: 10px;
-      font-weight: 400;
-      font-size: 2rem;
-    }
-    .gallery-items img {
-      width: 310px;
-      height: 240px;
-      object-fit: cover;
-    }
-    
-    .gallery-items:hover{
-      transform: scale(1.3);
-    }
-    
-    .sobre-nos {
-      padding: 60px;
-      margin-top: 20px;
-      background: rgba(0, 0, 0, 0.582);
-      border-radius: 15px;
-      display: block; 
-      width: 250px;
-      height: 690px;
-    }
-    
-    .texto01 {
-     color: rgba(0, 0, 0, 0.596);
-     text-align: justify;
-    }
-    
-    
-    .titulo-sobrenos {
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      padding-bottom: 10px;
-      font-size: 40px;
-      color: rgba(0, 0, 0, 0.596);
-      font-weight: bold;
-    }
-    
-    .subtitulo-sobrenos {
-      text-align: center;
-      font-family: 'Jockey';
-      font-weight: 400;
-      color: rgba(0, 0, 0, 0.596);
-    
-    }
-    
-    .texto-sobrenos {
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.541);
-      text-align: center;
-      padding-right: 0;
-    }
-    
-    .texto03 {
-      font-size: 15px;
-      color: rgba(0, 0, 0, 0.596);
-      font-weight: bold;
-    }
-    
-    .ender {
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.541);
-      text-align: center;
-      padding-right: 0;
-     
-    }
-    
-    .ender-titulo {
-      color: rgba(0, 0, 0, 0.596);
-      font-size: 18px;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      padding-left: 15px;
-    }
-    
-    .ender-texto {
-      text-align: justify;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      font-weight: 600;
-      color: rgba(255, 255, 255, 0.541);
-      text-align: center;
-      
-    }
-    
-    .ender a {
-      text-align: center;
-      font-size: 15px;
-      text-decoration: none;
-      padding-left: 25px;
-      
-    }
-    
-    .nome {
-      padding left: 70px;
-      text-align: center;
-    }
-    .reunioes {
-      background-color: rgba(255, 255, 0, 0.877);
-      border: 1px solid black;
-      border-radius: 15px;
-      padding: 1rem;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 2rem;
-      width: 323px;
-     }
-     
-     .titulo-reunioes {
-       font-size: 1.5rem;
-       font-family: "Jockey";
-       font-weight: bolder;
-     
-     }
-     
-     .texto-reunioes {
-       text-align: center;
-       padding: 1rem;
-      font-family: Arial, Helvetica, sans-serif;
-     }
-     
-     
-     .section-5 {
-       border: 8px solid rgba(0, 0, 0, 0.089);
-       margin: 11rem;
-     }
-     
-     .section-5 h1 {
-       text-align: left;
-       color: #000;
-       font-family: Arial, Helvetica, sans-serif;
-     }
-     
-     .container-form {
-       display: flex;
-       justify-content: center;
-       flex-wrap: wrap;
-     }
-     .map {
-       width: 100px;
-       flex: 2rem;
-       object-fit: cover;
-     }
-    
-     @media screen and (min-width: 325px) {
+  .reunioes {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    width: 560px;
+    margin: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 406px;
+   }
+   
+   .titulo-reunioes {
+     font-size: 1.5rem;
+     font-family: "Jockey";
+     font-weight: bolder;
+     color: #fff;
+   }
+   
+   .texto-reunioes {
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+   }
+  .sobre-nos {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    border: 1px solid black;
+    display: block; 
+    width: 430px;
+    height: 520px;
+    margin: 1.5rem;
+  }
+  
+  .texto01 {
+   color: rgba(0, 0, 0, 0.596);
+   text-align: justify;
+  }
+  
+  
+  .titulo-sobrenos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .subtitulo-sobrenos {
+    text-align: center;
+    font-family: 'Jockey';
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.596);
+    justify-content: ;
+  
+  }
+  
+  .texto-sobrenos {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    padding-right: 0;
+    justify-content: ;
+  }
+  
+  .texto03 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: bold;
+  }
+  
+  .ender {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+  }
+  
+  .ender-titulo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 4rem;
+  }
+  
+  .ender-texto {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    margin: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .email {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 4rem;
+  }
+  
+}
+
+
+
+     @media screen and (max-width: 414px) {
       .nav-bar {
         padding: 1rem;
     }
@@ -704,30 +195,32 @@
       
         .sejam-bem-vindos-titulo {
           text-align: center;
-          padding-right: 55px;
+          padding-left: 15px;
+          padding: 10px;
         }
       
         .sejam-bem-vindos-texto {
           text-align: center;
-          padding-right: 50px;
+          padding-left: 10px;
         }
         .slider {
           padding: 1px;
       }
       .slides {
         display: flex;
+        
       }
       .slides input {
           display: flex;
       }
       .slide {
-        width: 50%;
+        width: 10%;
         position: relative;
         transition: 2s;
       }
-      }
+      
       .slide img {
-          width: 330px;
+          width: 410px;
           height: 300px;
           display: inline;
       }
@@ -750,20 +243,19 @@
       }
       
       #Movimento h3 {
-        color: #fff;
-        text-align: left;
-        font-weight: 400;
-        font-size: 30px;
-        font-family: 'Kalam';
+       color: #fff;
+       text-align: left;
+       font-weight: 400;
+       font-size: 3.5rem;
+       font-family: 'Kalam';
        text-shadow: solid 1px black;
-      
       }
       
       #Movimento h1 {
         color: #00d2df;
         text-align: left;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 1.8rem;
         font-family: 'Kalam';
         text-shadow: solid 1px black;
         
@@ -771,9 +263,10 @@
       
       .areaMovimento{
         border: 1px solid #00d2df;
-        width: 220px;
+        width: 330px;
         height: 340px;
-        margin: 15px;
+        margin: 3px;
+        margin-bottom: 30px;
         color: white;
         text-align: column;    
         position: relative;
@@ -840,13 +333,13 @@
       } 
       
       .fotos {
-        margin: 20px;
+        margin: 18px;
         border: 0.5px solid black;
         border-radius: 20px;
         background:rgba(0, 0, 0, 0.753);
         box-shadow: 0px 3px 10px #006494;
         box-shadow: 0px 3px 10px #006494;
-        width: 270px;
+        width: 360px;
       }
       
       .titulo-fotos {
@@ -867,9 +360,11 @@
         font-size: 1rem;
       }
       .gallery-items img {
-        width: 260px;
+        width: 360px;
         height: 240px;
         object-fit: cover;
+        text-align: center;
+        margin: 1rem;
       }
       
       .gallery-items:hover{
@@ -880,8 +375,9 @@
         background: rgba(0, 0, 0, 0.582);
         border-radius: 15px;
         display: block; 
-        width: 160px;
-        height: 740px;
+        width: 360px;
+        height: 520px;
+        margin: 1.5rem;
       }
       
       .texto01 {
@@ -926,42 +422,39 @@
       }
       
       .ender {
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        color: rgba(255, 255, 255, 0.541);
-        text-align: center;
-        padding-left: 80px;
+       text-align: justify;
+       font-family: Arial, Helvetica, sans-serif;
+       padding-left: 120px;
        
       }
       
       .ender-titulo {
         color: rgba(0, 0, 0, 0.596);
-        font-size: 15px;
+        font-size: 19px;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        padding-left: 55px;
+        margin: 2rem;
+        padding-left: 80px;
       }
       
       .ender-texto {
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 11px;
+        font-size: 15px;
         font-weight: 600;
         color: rgba(255, 255, 255, 0.541);
         text-align: center;
-        padding-left: 55px;
-        
+        margin: 2rem;
+        padding-left: 80px;
       }
       
       .email {
-        text-align: center;
-        font-size: 18px;
-        text-decoration: none;
-        color: #fff;
-        padding-left: 1rem;
-        
+       text-align: center;
+       font-size: 18px;
+       text-decoration: none;
+       color: #fff;
+       
+       margin-left: 6rem;
       }
       
       .nome {
@@ -969,15 +462,16 @@
         text-align: center;
       }
       .reunioes {
-        background-color: rgba(255, 255, 0, 0.877);
+        background-color: #24252a;
+        box-shadow: 0px 3px 10px #464646;
         border: 1px solid black;
         border-radius: 15px;
         padding: 1rem;
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2rem;
-        width: 223px;
+        margin-top: 7rem;
+        width: 295px;
        }
        
        .titulo-reunioes {
@@ -1013,4 +507,5 @@
          flex: 2rem;
          object-fit: cover;
        }
+      }
        
