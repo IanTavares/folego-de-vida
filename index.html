@@ -11,17 +11,17 @@
 </head>
 <body>
     <header>
-       <nav class="nav-bar">
+       <nav id="Home" class="nav-bar">
         <img class="cabecario-logo" src="img/logo-folego.png">
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Programação</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Redes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Pastores</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Notícias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Agenda">Agenda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Redes">Redes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Pastores">Pastores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Notícias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" target="_blank">Contato</a></li>
                 </ul>
             </div>
             <div class="nav-button">
@@ -59,7 +59,7 @@
 
     <div class="slider">
 
-<div class="slides">
+<div id="Redes" class="slides">
     <!--Radio Buttons-->
     <input type="radio" name="radio-btn" id="radio1">
     <input type="radio" name="radio-btn" id="radio2">
@@ -221,7 +221,7 @@
     <h4 class="subtitulo-fotos">Pastores do Fôlego de vida em Belford Roxo/RJ.</h4>
  </div>                 
 
-    <section class="janela-pastores">    
+    <section id="Pastores" class="janela-pastores">    
 
         <div class="gallery-container">
             <a href="https://www.facebook.com/profile.php?id=100072003685420" target="_blank" class="gallery-items">
@@ -288,6 +288,34 @@
             <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.1488337763817!2d-43.357607385357355!3d-22.759857238365786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99650fbf5095bd%3A0xfb098e678015b91c!2sIgreja%20Apost%C3%B3lica%20Cidade%20F%C3%B4lego%20De%20Vida!5e0!3m2!1spt-BR!2sbr!4v1669230229077!5m2!1spt-BR!2sbr" width="1000vw" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
+        <section id="Agenda" class="agenda-folego">
+            <h1 class="titulo-agenda">AGENDA FÔLEGO</h1>
+            <div class="agenda-fotos">
+                <a href="#" target="_self"></a>
+                    <img src="img-igreja/PROFETIZANDO-2023-FEED.jpg" alt="#" width="380" height="305/>
+                
+
+                <a href="#" target="_self"></a>
+                    <img src="img-igreja/pix-colheita-church.jpg" alt="#" width="380" height="305/>
+                
+
+                <a href="#" target="_self"></a>
+                    <img src="img-igreja/doações-ofertas-dizimos-colheita.jpg" alt="#"width="380" height="305/>
+                
+
+                <a href="#" target="_self"></a>
+                    <img src="#" alt="#">
+                
+
+                <a href="#" target="_self"></a>
+                    <img src="#" alt="#">
+                
+
+                <a href="#" target="_self"></a>
+                    <img src="#" alt="#">
+                
+            </div>
+        </section>
         <section class="sobre-nos">
        
             <address class="ender">
@@ -305,9 +333,48 @@
                     <br> Lucilene Tereemoto na cidade de Belford Roxo - Rio de Janeiro</h3>
           </div>
         </section>
+
+        <section class="ligados">
+            <h3 class="Newsletter">Newsletter</h3>
+            <h1 class="Informados">Fique sempre informado sobre nossas <br> novidades</h1>
+        </section>
     
+<section class="informacoes-finais">
+    <div class="nav-final">
+        <ul>
+            <li class="nav-item-final"><a class="nav-link-final" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link-final" href="#Agenda">Agenda</a></li>
+            <li class="nav-item"><a class="nav-link-final" href="#Redes">Redes</a></li>
+            <li class="nav-item"><a class="nav-link-final" href="#Pastores">Pastores</a></li>
+            <li class="nav-item"><a class="nav-link-final" href="#" target="_self">Notícias</a></li>
+            <li class="nav-item"><a class="nav-link-final" href="#" target="_self">Contato</a></li>
+        </ul>
+   
+        <img class="cabecario-logo-final" src="img/logo-folego.png">
+
+        <p class="QrCode">QrCode para Pix</p><img src="#" alt="">
+    <div>
+        <ul>
+            <li class="doacao-h1">DOAÇÃO</li>
+            <P class="doacao-texto">Bradesco
+<br>
+                Agência: 0872
+                <br>
+                Conta: 0010680-1
+                <br>
+                CNPJ: 04.121.485/0001-22</P>
+        </ul>
+
+        <button class="botao-doacao"><a href="#"></a> Doação</button>
+    </div>
+    </div>
+</section>
+
+
+
+
     <footer>
-        <span class="nome">Copyright &copy; | Ian Tavares</span>
+        <span class="nome">&copy;2022 - Fôlego de Vida | Personalização: Ian Tavares - Dev Front-End</span>
     </footer>
 
  <script src="folego.js"></script>
