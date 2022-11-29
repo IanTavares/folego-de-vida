@@ -186,26 +186,43 @@
     padding-right: 7px;
     padding-left: 7px;
   }
-  
   .nav-final {
-    color: #000;
+    display: flex;
     justify-content: space-between;
-    
-   
+    padding: 2rem 6rem;
+    margin: 0 15px;
+  
   }
   
-  .nav-item-final {
-    
-  }
 
-  .nav-link-final {
-    color: #006494;
-  }
+.nav-item-final {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
   
   .nav-final ul {
     display: inline;
     justify-content: center;
     list-style: none;
+  }
+
+  .nav-final a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #24252a;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .nav-final a:hover {
+    color: #24252a;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #00d2df;
+    border-radius: 50px;
+    padding: 3px;
   }
   .botao-doacao {
     margin-left: 20px;
