@@ -253,7 +253,7 @@
 
 
 
-     @media screen and (min-width: 320px) and (max-width:370px) {
+     @media screen and (max-width: 320px) and (max-width:370px) {
       .cabecario-logo {
         padding-left: 20px;
       }
@@ -718,8 +718,8 @@
       }
 
       .cabecario-logo-final {
-       width: 3.3rem;
-       height: 10vh;
+       width: 3rem;
+       height: 8vh;
       }
 
       .QrCode {
@@ -748,13 +748,13 @@
       }
 
       section#redes-sociais  {
-        padding-right: 120px;
-        width: 50px;
+        padding-right: 150px;
+        width: 30px;
       }
       }
        
 
-      @media screen and (max-width: 375px) {
+      @media screen and (min-width: 375px) {
         .cabecario-logo {
           padding-left: 20px;
         }
@@ -1245,7 +1245,7 @@
         }
   
         section#redes-sociais  {
-          padding-right: 80px;
+          padding-right: 30px;
           width: 100vw;
         }
         }
