@@ -251,510 +251,508 @@
   }
 }
 
+@media screen and (max-width: 320px) {
+  .cabecario-logo {
+    padding-left: 20px;
+  }
+  .nav-bar {
+    padding: 1rem;
+}
+.nav-item {
+    display: none;
+}
+.login-button {
+    display: none;
+}
+.mobile-menu-icon {
+    display: block;
+}
+.mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.mobile-menu .nav-item {
+    display: block;
+    padding-top: 1.2rem;
+}
 
-
-     @media screen and (max-width: 320px) and (max-width:370px) {
-      .cabecario-logo {
-        padding-left: 20px;
-      }
-      .nav-bar {
-        padding: 1rem;
-    }
-    .nav-item {
-        display: none;
-    }
-    .login-button {
-        display: none;
-    }
-    .mobile-menu-icon {
-        display: block;
-    }
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
+.open {
+    display: block;
+}
+  .sejam-bemvindos {
+      width: 20px;
     }
   
-    .open {
-        display: block;
+    .sejam-bem-vindos-titulo {
+      text-align: center;
+      font-size: 30px;
+      padding: 50px;
     }
-      .sejam-bemvindos {
-          width: 20px;
-        }
-      
-        .sejam-bem-vindos-titulo {
-          text-align: center;
-          font-size: 30px;
-          padding: 50px;
-        }
-      
-        .sejam-bem-vindos-texto {
-          text-align: center;
-          padding-right: 7vw;
-        }
+  
+    .sejam-bem-vindos-texto {
+      text-align: center;
+      padding-right: 7vw;
+    }
 
-        .titulo-slide {
-        padding-left: 2rem;
-        }
+    .titulo-slide {
+    padding-left: 2rem;
+    }
 
-        .slider {
-          padding: 1px;
-      }
-      .slides {
-        display: flex;
-        
-      }
-      .slides input {
-          display: flex;
-      }
-      .slide {
-        width: 10%;
-        position: relative;
-        transition: 2s;
-      }
-      
-      .slide img {
-          width: 410px;
-          height: 300px;
-          display: inline;
-      }
-      #Movimento {
-        background-image: url(img-igreja/culto.jpg);
-        background-position: center center;
-        background-attachment: fixed;
-        width: 250vw;
-        background-size: 2000px;
-      }
-      
-      .Movimento {
-          display: block;
-          justify-content: space-around;
-          align-items: center;
-          flex-wrap: wrap;
-          font-size: 1.0em; 
-          padding-right: 18px;   
-        
-      }
-      
-      #Movimento h3 {
-       color: #fff;
-       text-align: left;
-       font-weight: 400;
-       font-size: 1rem;
-       font-family: 'Kalam';
-       text-shadow: solid 1px black;
-      }
-      
-      #Movimento h1 {
-        color: #00d2df;
-        text-align: left;
-        font-weight: 400;
-        font-size: 1rem;
-        font-family: 'Kalam';
-        text-shadow: solid 1px black;
-        
-      }
-      
-      .areaMovimento{
-        border: 1px solid #00d2df;
-        width: 225px;
-        height: 340px;
-        margin: 3px;
-        margin-bottom: 30px;
-        color: white;
-        text-align: column;    
-        position: relative;
-      }
-      
-      .areaMovimento h2 {
-          padding: 10px;
-          margin-top: 90px; 
-      }
-      
-      .areaMovimento p {
-          padding: 15px;
-      }
-      
-      .imageMovimento {    
-          display: block;
-          width: 100%;
-          height: 340px; 
-      }
-      
-      
-      .textoMovimento {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.842);
-        opacity: 0;
-        transition: opacity 0.25s;
-      }
-      
-      .textoMovimento:hover {
-        opacity: 1;
-      }
-      
-      .textoMovimento-h2 {
-        font-family: 'Jockey';
-      }
-      
-      .btn {
-         border: none;
-         background-color: #006494;
-         padding: 10px 35px;
-         border-radius: 20px;
-         margin-top: 1px;
-      }
-      
-      .btn a {
-          text-decoration: none;
-          color: #fff;
-          font-weight: 500;
-          font-family: 'Kalam';
-          font-size: 17px;
-      }
-      
-      .btn a:hover {
-          transform: scale(1.1);
-          color: #fff;
-          font-weight: bold;
-          font-size: 20px;
-          border: 1px solid #05d4df;
-          border-radius: 22px;
-          padding: 8px;
-      } 
-      
-      .fotos {
-        margin: 20px;
-        padding: 10px;
-        border: 0.5px solid black;
-        border-radius: 20px;
-        background:rgba(0, 0, 0, 0.753);
-        box-shadow: 0px 3px 10px #006494;
-        box-shadow: 0px 3px 10px #006494;
-        width: 250px;
-      }
-      
-      .titulo-fotos {
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-        font-family: 'Jockey';
-        overflow: hidden;
-        font-size: 2rem;
-      }
-      
-      .subtitulo-fotos {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgba(255, 255, 255, 0.63);
-        padding-bottom: 10px;
-        font-weight: 400;
-        font-size: 1rem;
-      }
-      .gallery-items img {
-        width: 230px;
-        height: 240px;
-        object-fit: cover;
-        text-align: center;
-        margin: 1rem;
-        padding-bottom: 10px;
-      }
-      
-      .gallery-items:hover{
-        transform: scale(1.3);
-      }
-      
-      .sobre-nos {
-        background: rgba(0, 0, 0, 0.582);
-        border-radius: 15px;
-        margin: 1rem;
-      }
-      
-      .texto01 {
-       color: rgba(0, 0, 0, 0.596);
-       text-align: justify;
-      }
-      
-      
-      .titulo-sobrenos {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-bottom: 14px;
-        font-size: 40px;
-        color: rgba(0, 0, 0, 0.596);
-        font-weight: bold;
-        padding-left: 20rem;
-      }
-      
-      .subtitulo-sobrenos {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: rgba(0, 0, 0, 0.596);
-      }
-      
-      .texto-sobrenos {
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.3rem;
-        font-weight: 600;
-        color: rgba(0, 0, 0, 0.596);
-        padding-right: 30px;
-      }
-      
-      .texto03 {
-        font-size: 15px;
-        color: rgba(0, 0, 0, 0.596);
-        font-weight: bold;
-      }
-      
-      .ender {
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-left: 45px;
-      }
-      
-      .ender-titulo {
-        color: #24252a;
-        font-size: 17px;
-        font-weight: 400;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-        padding-left: 50px;
-        text-align: justify;
-      }
-      
-      .ender-texto {
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        font-weight: 600;
-        color:#24252a;
-        text-align: center;
-        margin: 2rem;
-        padding-left: 30px;
-      }
-      
-      .email {
-        text-align: center;
-        font-size: 8px;
-        text-decoration: none;
-        color: #006494;
-        margin-right: 1px;
+    .slider {
+      padding: 1px;
+  }
+  .slides {
+    display: flex;
     
-      }
-      
-      .nome {
-        padding left: 70px;
-        text-align: center;
-      }
-      .reunioes {
-        background-color: #24252a;
-        box-shadow: 0px 3px 10px #464646;
-        border: 1px solid black;
-        border-radius: 15px;
-        padding: 1rem;
-        padding-left: 2rem;
-        text-align: center;
-        margin-left: 2.2rem;
-        margin-top: 4rem;
-        width: 185px;
-       }
-       
-       .titulo-reunioes {
-         font-size: 1.5rem;
-         font-family: "Jockey";
-         font-weight: bolder;
-       
-       }
-       
-       .texto-reunioes {
-         text-align: center;
-         padding: 0.5rem;
-         font-family: Arial, Helvetica, sans-serif;
-       }
-       
-       .section-5 {
-         margin: 7rem;
-       }
-       
-       .section-5 h1 {
-         text-align: left;
-         color: #000;
-         font-family: Arial, Helvetica, sans-serif;
-       }
-       
-       .container-form {
-         display: flex;
-         justify-content: center;
-         flex-wrap: wrap;
-       }
-       .map {
-         width: rem;
-         flex: 2rem;
-         object-fit: cover;
-       }
-       footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #000;
-        font-size: 8px;
-      }
-      .agenda-folego {
-        background-color: #46464617;
-        display: contents;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 3vw;
-      }
-      
-      .titulo-agenda {
-        padding-left: 2rem;
-        text-align: center;
-        font-size: 3rem;
-        font-family: "Jockey";
-        color: #616165;
-      }
-      
-      .agenda-fotos > img {
-        display: block;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap; 
-        padding-right: 10px; 
-        width: 180px;  
-        margin-bottom: 10px;
-      }
-      
-      .ligados {
-        background-image: url(./img-igreja/culto-2.webp);
-        background-position: center center;
-        background-size: 100vh;
-        padding: 40px;
-        height: 350px;
-      }
-      
-      .Newsletter {
-        text-align: center;
-        font-size: 2rem;
-        color: #05d4df;
-        margin-top: 9rem;
-        text-shadow: #000;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      }
-      
-      .Informados {
-        font-size: 2rem;
-        text-align: center;
-        color: #fff;
-        font-family: "Jockey";
-        text-shadow: 1px solid #000;
-      }
+  }
+  .slides input {
+      display: flex;
+  }
+  .slide {
+    width: 10%;
+    position: relative;
+    transition: 2s;
+  }
+  
+  .slide img {
+      width: 410px;
+      height: 300px;
+      display: inline;
+  }
+  #Movimento {
+    background-image: url(img-igreja/culto.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    width: 250vw;
+    background-size: 2000px;
+  }
+  
+  .Movimento {
+      display: block;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 1.0em; 
+      padding-right: 18px;   
+    
+  }
+  
+  #Movimento h3 {
+   color: #fff;
+   text-align: left;
+   font-weight: 400;
+   font-size: 1rem;
+   font-family: 'Kalam';
+   text-shadow: solid 1px black;
+  }
+  
+  #Movimento h1 {
+    color: #00d2df;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Kalam';
+    text-shadow: solid 1px black;
+    
+  }
+  
+  .areaMovimento{
+    border: 1px solid #00d2df;
+    width: 225px;
+    height: 340px;
+    margin: 3px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: column;    
+    position: relative;
+  }
+  
+  .areaMovimento h2 {
+      padding: 10px;
+      margin-top: 90px; 
+  }
+  
+  .areaMovimento p {
+      padding: 15px;
+  }
+  
+  .imageMovimento {    
+      display: block;
+      width: 100%;
+      height: 340px; 
+  }
+  
+  
+  .textoMovimento {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.842);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  
+  .textoMovimento:hover {
+    opacity: 1;
+  }
+  
+  .textoMovimento-h2 {
+    font-family: 'Jockey';
+  }
+  
+  .btn {
+     border: none;
+     background-color: #006494;
+     padding: 10px 35px;
+     border-radius: 20px;
+     margin-top: 1px;
+  }
+  
+  .btn a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      font-family: 'Kalam';
+      font-size: 17px;
+  }
+  
+  .btn a:hover {
+      transform: scale(1.1);
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      border: 1px solid #05d4df;
+      border-radius: 22px;
+      padding: 8px;
+  } 
+  
+  .fotos {
+    margin: 20px;
+    padding: 10px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background:rgba(0, 0, 0, 0.753);
+    box-shadow: 0px 3px 10px #006494;
+    box-shadow: 0px 3px 10px #006494;
+    width: 250px;
+  }
+  
+  .titulo-fotos {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Jockey';
+    overflow: hidden;
+    font-size: 2rem;
+  }
+  
+  .subtitulo-fotos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.63);
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  .gallery-items img {
+    width: 230px;
+    height: 240px;
+    object-fit: cover;
+    text-align: center;
+    margin: 1rem;
+    padding-bottom: 10px;
+  }
+  
+  .gallery-items:hover{
+    transform: scale(1.3);
+  }
+  
+  .sobre-nos {
+    background: rgba(0, 0, 0, 0.582);
+    border-radius: 15px;
+    margin: 1rem;
+  }
+  
+  .texto01 {
+   color: rgba(0, 0, 0, 0.596);
+   text-align: justify;
+  }
+  
+  
+  .titulo-sobrenos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 14px;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: bold;
+    padding-left: 20rem;
+  }
+  
+  .subtitulo-sobrenos {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.596);
+  }
+  
+  .texto-sobrenos {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.596);
+    padding-right: 30px;
+  }
+  
+  .texto03 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: bold;
+  }
+  
+  .ender {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 45px;
+  }
+  
+  .ender-titulo {
+    color: #24252a;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    text-align: justify;
+  }
+  
+  .ender-texto {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color:#24252a;
+    text-align: center;
+    margin: 2rem;
+    padding-left: 30px;
+  }
+  
+  .email {
+    text-align: center;
+    font-size: 8px;
+    text-decoration: none;
+    color: #006494;
+    margin-right: 1px;
 
-      .cabecario-logo-final {
-        width: 5rem;
-        padding: 2rem;
-        position: relative; 
-        padding-right: 7px;
-        padding-left: 7px;
-      }
-      
-      .nav-final {
-        color: #000;
-        justify-content: space-between;
-        padding: 0.5rem;
-        margin: 0 6px;
-      }
-      
-      .nav-item-final {
-        margin-right: -6px;
-        margin-left: -6px;
-      }
-      
-      .nav-final ul {
-        display: inline;
-        justify-content: center;
-        list-style: none;
-      }
+  }
+  
+  .nome {
+    padding left: 70px;
+    text-align: center;
+  }
+  .reunioes {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1rem;
+    padding-left: 2rem;
+    text-align: center;
+    margin-left: 2.2rem;
+    margin-top: 4rem;
+    width: 185px;
+   }
+   
+   .titulo-reunioes {
+     font-size: 1.5rem;
+     font-family: "Jockey";
+     font-weight: bolder;
+   
+   }
+   
+   .texto-reunioes {
+     text-align: center;
+     padding: 0.5rem;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .section-5 {
+     margin: 7rem;
+   }
+   
+   .section-5 h1 {
+     text-align: left;
+     color: #000;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   .container-form {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   .map {
+     width: rem;
+     flex: 2rem;
+     object-fit: cover;
+   }
+   footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 8px;
+  }
+  .agenda-folego {
+    background-color: #46464617;
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3vw;
+  }
+  
+  .titulo-agenda {
+    padding-left: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Jockey";
+    color: #616165;
+  }
+  
+  .agenda-fotos > img {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-right: 10px; 
+    width: 180px;  
+    margin-bottom: 10px;
+  }
+  
+  .ligados {
+    background-image: url(./img-igreja/culto-2.webp);
+    background-position: center center;
+    background-size: 100vh;
+    padding: 40px;
+    height: 350px;
+  }
+  
+  .Newsletter {
+    text-align: center;
+    font-size: 2rem;
+    color: #05d4df;
+    margin-top: 9rem;
+    text-shadow: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .Informados {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Jockey";
+    text-shadow: 1px solid #000;
+  }
 
-      .QrCode {
-        width: 1.5rem;
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        padding: 5px;
-        justify-content: space-around;
-        font-weight: bold;
-      }
-      
-      .qrcode {
-      width: 4rem;
-      padding-right: 20px;
-      }
+  .cabecario-logo-final {
+    width: 5rem;
+    padding: 2rem;
+    position: relative; 
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  
+  .nav-final {
+    color: #000;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 0 6px;
+  }
+  
+  .nav-item-final {
+    margin-right: -6px;
+    margin-left: -6px;
+  }
+  
+  .nav-final ul {
+    display: inline;
+    justify-content: center;
+    list-style: none;
+  }
 
-      .doacao-h1 {
-        padding-left: 30px;
-      }
+  .QrCode {
+    width: 1.5rem;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  
+  .qrcode {
+  width: 4rem;
+  padding-right: 20px;
+  }
 
-      .doacao-texto {
-        font-size: 10px;
-        padding-left: 30px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-      }
+  .doacao-h1 {
+    padding-left: 30px;
+  }
 
-      .cabecario-logo-final {
-       width: 3rem;
-       height: 8vh;
-      }
+  .doacao-texto {
+    font-size: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 
-      .QrCode {
-        font-size: 10px;
-        
-      }
+  .cabecario-logo-final {
+   width: 3rem;
+   height: 8vh;
+  }
 
-      .qrcode {
-        height: 10vh;
-        width: 15vw;
-      }
-      .botao-doacao {
-        margin-left: 45px;
-        background: #0066A2;
-        color: white;
-        border-style: outset;
-        border-color: #0066A2;
-        height: 4.9vh;
-        width: 19vw;
-        font: bold 15px arial,sans-serif;
-        text-shadow: none;
-      }
+  .QrCode {
+    font-size: 10px;
+    
+  }
 
-      .doacao-h1 {
-        font-size: 1em;
-      }
+  .qrcode {
+    height: 10vh;
+    width: 15vw;
+  }
+  .botao-doacao {
+    margin-left: 45px;
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    border-color: #0066A2;
+    height: 4.9vh;
+    width: 19vw;
+    font: bold 15px arial,sans-serif;
+    text-shadow: none;
+  }
 
-      section#redes-sociais  {
-        padding-right: 150px;
-        width: 30px;
-      }
-      }
-       
+  .doacao-h1 {
+    font-size: 1em;
+  }
 
-      @media screen and (min-width: 375px) {
+  section#redes-sociais  {
+    padding-right: 150px;
+    width: 30px;
+  }
+  }
+   
+
+      @media screen and (max-width: 375px) {
         .cabecario-logo {
           padding-left: 20px;
         }
